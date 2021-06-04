@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { Whiteboard } from '.'
 
 describe('ExampleComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(Whiteboard).toBeTruthy()
   })
 })

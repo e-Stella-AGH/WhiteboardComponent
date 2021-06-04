@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'e-stella-whiteboard'
-import 'e-stella-whiteboard/dist/index.css'
+import { Whiteboard } from 'e-stella-whiteboard'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Whiteboard client_id="<YOUR CLIENT ID FROM Whiteboard.team API>" code="CODE FOR YOUR WHITEBOARD" />
 }
 
 export default App

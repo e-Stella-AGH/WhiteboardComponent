@@ -15,15 +15,21 @@ npm install --save e-stella-whiteboard
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'e-stella-whiteboard'
-import 'e-stella-whiteboard/dist/index.css'
+import Whiteboard from 'e-stella-whiteboard'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Whiteboard code="" client_id="" />
   }
 }
 ```
+
+### Props
+
+|Name   | Meaning   |Example   |Type    |
+|---|---|---|--- |
+|client_id  | API key from [here](https://www.whiteboard.team/)   | It's an API key, there won't be any example  | string   |
+|code   |Whiteboard code (more info [here](https://www.whiteboard.team/))   |  Literaly anything, that has more than 15 letters  |string    |
 
 ## License
 
