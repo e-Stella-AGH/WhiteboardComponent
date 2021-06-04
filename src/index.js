@@ -10,7 +10,6 @@ export const Whiteboard = (props) => {
       client_id: props.client_id,
       code: props.code
     })
-    return () => whiteboard?.dispose()?.()
   }, [])
 
   return (
